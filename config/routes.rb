@@ -3,4 +3,10 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root 'pages#home'
   get 'age', to: 'pages#age'
+  ###
+
+  post 'stringify', to: 'pages#stringify'
+  put 'age', to: 'pages#person'
+  #put 'age', to: 'pages#age'
+  get 'me', to: 'pages#me'
 end
